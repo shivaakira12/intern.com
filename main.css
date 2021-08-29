@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 18vh;
+}
+.logo img{
+    height: 70px;
+    margin-left: 100px;
+}
+.nav ul{
+    display: flex;
+    margin-right: 50px;
+    padding: 0px 90px;
+}
+.nav ul li{
+    list-style: none;
+    padding: 0px 5px;
+}
+.nav ul li a{
+    text-decoration: none;
+    padding: 5px 20px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 6px;
+    transition: all 500ms ease-in-out;
+}
+.nav ul li a:hover{
+    background-color: black;
+    color: white;
+}
+.inside-hero img{
+    height: 400px;
+    margin-top: 200px;
+    margin-left:100px;
+}
+.hero-heading{
+    position: absolute;
+    margin-top: -300px;
+    text-align: center;
+    margin-left:600px;
+    font-size: 35px;
+}
+.hero-heading span{
+    color: #6C63FF;
+}
+.about-section{
+    margin-top: 100px;
+    text-align: center;
+}
+.about-section h1{
+    font-size: 30px;
+    color: rgb(202, 125, 125);
+    font-weight: normal;
+}
+.inside-about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    padding: 0px 140px;
+}
+.box-content
+{
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    height: 100%;
+    width: 50%;
+    line-height: 3;
+}
+.box-content:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    cursor: pointer;
+}
+.box-content h2{
+    font-size: 15px;
+    color: rgb(202, 125, 125);
+}
+.box-content p{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+.btn1{
+    margin-top: 30px;
+}
+.btn1 a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 10px 30px;
+    border-radius: 10px;
+    transition: all 500ms ease-in-out;
+}
+.btn1 a:hover{
+    background-color:black;
+    color: white;
+}
+.resume-left img{
+    height: 400px;
+    float: right;
+    margin-right: 40px;
+    margin-top: 100px;
+}
+.resume-section{
+    margin-top: 100px;
+}
+.resume-section h1{
+    text-align: center;
+    color: rgb(202, 125, 125);
+    font-weight: normal;
+}
+.resume-right{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 40px;
+    line-height: 2;
+    padding: 100px;
+    border-right: 2px solid red;
+}
+.resume-right p{
+    text-align: justify;
+}
+.work-section
+{
+    margin-top: 850px;
+    padding: 2rem 35%;
+}
+.work-section h1{
+    color: rgb(202, 125, 125);
+}
+.work-container{
+    margin-top: 80px;
+}
+.work-holder span{
+    padding: 30px 40px;
+    border: 2px dotted silver;
+    color: chocolate;
+}
+.work-holder h2{
+    color: blue;
+}
+.work-holder p{
+    margin-top: 40px;
+}
+.work-holder2{
+    margin-top: 50px;
+}
+.work-holder2 span{
+    padding: 30px 40px;
+    border: 2px dotted silver;
+    color: chocolate;
+    float: right;
+}
+.work-holder2 h2{
+    color: blue;
+    float: right;
+}
+.image1 img{
+height: 50px;
+margin-left: 320px;
+position: absolute;
+}
+.work-holder2 p{
+    float: right;
+    margin-top: 20px;
+}
+.work-holder3{
+    margin-top: 350px;
+}
+.work-holder3 span{
+    padding: 30px 40px;
+    border: 2px dotted silver;
+    color: chocolate;
+}
+.work-holder3 h2{
+    color: blue;
+}
+.image2 img{
+height: 50px;
+position: absolute;
+margin-top: -200px;
+}
+.work-holder3 p{
+    margin-top: 40px;
+}
+.work-holder4 span{
+    padding: 30px 40px;
+    border: 2px dotted silver;
+    color: chocolate;
+    float: right;
+}
+.work-holder4 h2{
+    color: blue;
+    float: right;
+}
+.image3 img{
+height: 50px;
+margin-left: 320px;
+position: absolute;
+}
+.work-holder4 p{
+    float: right;
+    margin-top: 20px;
+}
+.work-holder4{
+    margin-top: 80px;
+}
+.work-holder5 span{
+    padding: 30px 40px;
+    border: 2px dotted silver;
+    color: chocolate;
+}
+.work-holder5 h2{
+    color: blue;
+}
+.image4 img{
+    height: 50px;
+position: absolute;
+margin-top: -220px;
+
+}
+.work-holder5 p{
+    margin-top: 50px;
+}
+.work-holder5{
+    margin-top: 380px;
+}
+.news-letter{
+    margin-top: 100px;
+    text-align: center;
+    background-color: rgb(245, 212, 212);
+    height: 30vh;
+}
+.news-letter h1{
+    color:black;
+    margin-top: 40px;
+}
+.news-container{
+    padding-top: 10px;
+}
+.buttons{
+    margin-top: 30px;
+}
+.buttons a{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: black;
+    color:  #eee;
+    border-radius: 10px;
+}
+.footer{
+    margin-top: 100px;
+    background-color: rgb(124, 141, 141);
+    height: 50vh;
+}
+.inside-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-container
+{
+    margin-top: 50px;
+    padding: 40px 140px;
+}
+.footer-container h1{
+    color: #eee;
+}
+.footer-container ul{
+    margin-top: 40px;
+}
+.footer-container ul li{
+    list-style: none;
+}
+.footer-container ul li a{
+    text-decoration: none;
+    color: black;
+}
+.footer-container ul li a:hover{
+    color: #eee;
+}
+.btn5{
+    margin-top: 40px;
+}
+.btn5 a{
+    padding: 10px 30px;
+    background-color: rgb(39, 38, 38);
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+}
+.bottom-footer{
+    height: 10vh;
+    position: absolute;
+    color:#eee;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    margin-top: 40px;
+}
+.bottom-footer p{
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+
+
+@media(max-width:858px)
+{
+   
+    .logo{
+        font-size: 10px;
+       
+    }
+    .logo img{
+        height: 40px;
+        margin-left: 20px;
+    }
+    .checkbtn{
+      display: block;
+      color: #cf1d16;
+    }
+    .nav ul{
+      position: absolute;
+      width: 70%;
+      height: 100vh;
+      background: #eee;
+      top: 120px;
+      left: -100%;
+      text-align: center;
+      display: block;
+      transition: all .5s;
+    }
+    .nav ul li{
+     padding: 40px;
+    }
+    .nav ul li a{
+      font-size: 20px;
+    }
+    #check:checked ~ ul{
+      left: 0;
+    }
+    .hero-heading{
+        margin-top: 60px;
+        margin-left:0px;
+        font-size: 25px;
+    }
+    .inside-hero img{
+        height: 200px;
+        margin-top: 200px;
+        margin-left:50px;
+    }
+    .about-section{
+        margin-top: 400px;
+    }
+    .inside-about{
+        display: block;
+        margin-top: 100px;
+        height: 100%;
+        width: 100%;
+        padding: 10px 50px;
+    }
+    .box-content
+{
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    height: 100%;
+    width: 100%;
+    line-height: 3;
+}
+.resume-left img{
+    height: 300px;
+    margin-right: 40px;
+    margin-top: 100px;
+}
+.resume-right{
+    margin-top: 400px;
+    font-size: 10px;
+    border-right:none;
+    margin-left:  -40px;
+}
+.work-section
+{
+    margin-top: 1050px;
+    padding: 2rem 35%;
+}
+.work-section h1{
+    font-size: 20px;
+    text-align: center;
+}
+.image1 img{
+    height: 30px;
+    margin-left:0px;
+  
+    }
+    .work-holder2 p{
+        float: none;
+        margin-top: 20px;
+    }
+    .work-holder3{
+        margin-top: 90px;
+    }
+    .image2 img{
+        height: 30px;
+        position: absolute;
+        margin-top: 0px;
+    }
+    .work-holder4 p{
+        float: none;
+        margin-top: 20px;
+    }
+    .image3 img{
+        height: 30px;
+        position: absolute;
+        margin-top: 0px;
+    }
+    .image4 img{
+        height: 30px;
+        margin-top: 0px;
+    }
+    .footer{
+        height: 100%;
+        width: 100%;
+    }
+    .inside-footer{
+        display: block;
+    }
+    .btn5 a{
+        display: none;
+    }
+}
